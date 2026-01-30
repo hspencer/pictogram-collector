@@ -1,1 +1,8 @@
-[]
+{
+  "version": "3.0.0",
+  "type": "pictonet_graph_dump",
+  "title": "Selección de la Comunidad - Pictos.net",
+  "description": "Biblioteca colaborativa de pictogramas curados por la comunidad.",
+  "timestamp": "2026-01-31T00:00:00Z",
+  "rows": []
+}

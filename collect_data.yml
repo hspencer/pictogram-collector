@@ -1,0 +1,44 @@
+name: Collect Data
+
+on:
+  repository_dispatch:
+    types: [append-row]
+  workflow_dispatch:
+    inputs:
+      data:
+        description: 'Fila JSON a agregar (ej: {"nombre": "Test", "valor": 123})'
+        required: true
+        type: string
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Append data
+        run: |
+          if [ "${{ github.event_name }}" == "repository_dispatch" ]; then
+            # Extraer el payload JSON del evento dispatch
+            DATA='${{ toJson(github.event.client_payload) }}'
+          else
+            # Usar la entrada manual
+            DATA='${{ github.event.inputs.data }}'
+          fi
+          python scripts/append_data.py "$DATA"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git commit -m "Update data.json with new entry [skip ci]" || echo "No changes to commit"
+          git push
