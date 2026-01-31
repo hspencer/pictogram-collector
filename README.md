@@ -1,8 +1,8 @@
-# PictogramCollector: Selección de la Comunidad (mediafranca)
+# Pictogramas Seleccionados por la Comunidad (mediafranca)
 
 ## Contexto del Proyecto
 
-**PictogramCollector** es el repositorio central de contribuciones para **Pictos.net**. 
+**pictogram-colector** es el repositorio central de contribuciones para **Pictos.net**. 
 
 Pictos.net es una aplicación web que permite a los usuarios crear y gestionar pictogramas de alta calidad con metadatos enriquecidos, almacenándolos localmente en el navegador. Para fomentar la colaboración y construir una biblioteca global curada, este repositorio actúa como el "Servidor de Recolección", donde los usuarios pueden enviar pictogramas seleccionados para formar parte de la **"Selección de la Comunidad"**.
 
