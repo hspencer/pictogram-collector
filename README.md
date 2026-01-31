@@ -12,8 +12,8 @@ Pictos.net es una aplicación web que permite a los usuarios crear y gestionar p
 
 La colección completa se consolida automáticamente en un único archivo JSON con el formato oficial de Pictos.net (Graph Dump).
 
-- **URL Pública (GitHub Pages):** [https://mediafranca.github.io/pictogram-collector/data.json](https://mediafranca.github.io/pictogram-collector/data.json)
-- **URL Directa (GitHub Raw):** [https://raw.githubusercontent.com/mediafranca/pictogram-collector/main/data.json](https://raw.githubusercontent.com/mediafranca/pictogram-collector/main/data.json)
+- **URL Pública (GitHub Pages):** [https://hspencer.github.io/pictogram-collector/data.json](https://hspencer.github.io/pictogram-collector/data.json)
+- **URL Directa (GitHub Raw):** [https://raw.githubusercontent.com/hspencer/pictogram-collector/main/data.json](https://raw.githubusercontent.com/hspencer/pictogram-collector/main/data.json)
 
 ---
 
