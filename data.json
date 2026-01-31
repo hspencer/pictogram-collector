@@ -3,6 +3,13 @@
   "type": "pictonet_graph_dump",
   "title": "Selección de la Comunidad - Pictos.net",
   "description": "Biblioteca colaborativa de pictogramas curados por la comunidad.",
-  "timestamp": "2026-01-31T00:00:00Z",
-  "rows": []
+  "timestamp": "2026-01-31T04:20:00.215860Z",
+  "rows": [
+    {
+      "id": "test-123",
+      "UTTERANCE": "prueba manual",
+      "source": "manual-test",
+      "timestamp": "2026-01-31T12:00:00Z"
+    }
+  ]
 }
