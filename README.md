@@ -1,4 +1,4 @@
-# Pictogramas Seleccionados por la Comunidad (mediafranca)
+# Pictogramas Seleccionados por la Comunidad
 
 ## Contexto del Proyecto
 
